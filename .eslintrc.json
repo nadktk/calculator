@@ -1,0 +1,20 @@
+{
+    "env": {
+      "browser": true,
+      "jest": true,
+      "es6": true,
+      "node": true
+    },
+    "extends": [
+      "airbnb"
+    ],
+    "rules": {
+        "no-eval": 0,
+        "react/jsx-filename-extension": 0
+    },
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    }
+}
